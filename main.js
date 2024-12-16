@@ -33,8 +33,9 @@ count()
 const div = document.querySelector("div");
 
  div.onclick = () =>{
-         if (div.classList.contains("green")) div.classList.remove("green")
-            else div.classList.add("green")
+         if (div.classList.contains("green")) {
+             div.classList.remove("green")
+         } else {div.classList.add("green")}
  }
 
  // 5-задание
